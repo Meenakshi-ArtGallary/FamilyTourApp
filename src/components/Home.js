@@ -38,7 +38,7 @@ useEffect(() => {
       <img
         src={images[currentIndex]}
         alt={`Slideshow ${currentIndex + 1}`}
-        style={{width: '330px', height: '330px',borderRadius : '15px',objectFit : 'cover', animation: 'fade 1s ease-in-out'}}
+        style={{width: '320px', height: '320px',borderRadius : '15px',objectFit : 'cover', animation: 'fade 1s ease-in-out'}}
       />
     </div>
     
