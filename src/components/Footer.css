@@ -1,0 +1,49 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background-color: #0077b6; /* Same Ocean blue as the header */
+    color: #ffffff; /* White text for contrast */
+    display: flex;
+    /* align-items: left; 
+    justify-content: left; */
+    z-index: 1000;
+    padding: 1rem;
+    /* text-align: left; */
+    font-family: 'Georgia', serif; /* Travel-inspired font */
+    font-size: 1rem;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+.footer-text {
+  /*margin: 0 auto; */
+    font-size: 0.8rem;
+    color: #ffffff; /* White text */
+    text-align: left;
+    font-family: 'Georgia', serif; /* Travel-inspired font */
+}
+
+@media (max-width: 600px) {
+    .header h1 {
+        font-size: 1.5rem;
+    }
+    .content-inner {
+        font-size: 1rem;
+    }
+    .footer p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 1920px) {
+    .header h1 {
+        font-size: 3rem;
+    }
+    .content-inner {
+        font-size: 2rem;
+    }
+    .footer p {
+        font-size: 1.5rem;
+    }
+}

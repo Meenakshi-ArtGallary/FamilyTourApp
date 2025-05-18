@@ -1,0 +1,86 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 35px;
+    background-color: #0077b6; /* Travel adventure theme: Ocean blue */
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff; /* White text for contrast */
+}
+
+.header-title {
+    margin: 0 auto; /* Center the title */
+    font-size: 1.8rem;
+    color: #ffffff; /* White text */
+    text-align: center;
+    font-family: 'Georgia', serif; /* Travel-inspired font */
+}
+
+.nav-menu {
+    margin-left: 0; /* Align menu items to the left */
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin-right: 1rem;
+}
+
+.nav-menu li button {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+}
+
+.nav-menu li button:hover {
+    color: #caf0f8; /* Light blue hover effect */
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .header h1 {
+        font-size: 1.5rem;
+    }
+    .content-inner {
+        font-size: 1rem;
+    }
+    .footer p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 1920px) {
+    .header h1 {
+        font-size: 3rem;
+    }
+    .content-inner {
+        font-size: 2rem;
+    }
+    .footer p {
+        font-size: 1.5rem;
+    }
+}
