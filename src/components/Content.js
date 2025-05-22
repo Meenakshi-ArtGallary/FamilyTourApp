@@ -12,7 +12,7 @@ function Content({ activePage }) {
   return (
     <div className="content">
             <div className="content-inner">
-    <main className="content">
+    <main>
       {activePage === 'home' && <Home />}
       {activePage === 'marriage' && <Marriage />}
       {activePage === 'bros' && <Brothers />}

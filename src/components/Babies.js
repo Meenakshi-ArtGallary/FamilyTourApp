@@ -27,7 +27,7 @@ const closeModal = () => {
 
   return (
     <section>
-      <p>Babies...</p>
+      <p style={{fontSize:'1rem' }}>Babies...</p>
 
       <div>
            

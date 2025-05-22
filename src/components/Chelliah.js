@@ -3,7 +3,7 @@ import './Chelliah.css'; // Import your CSS file for styling
 
 function Main() {
 // Sample image data (you can replace with your own image URLs)
-  const imageList = Array.from({ length:5}, (_, i) => `${process.env.PUBLIC_URL}/images/chella/${i+1}.jpg`);
+  const imageList = Array.from({ length:7}, (_, i) => `${process.env.PUBLIC_URL}/images/chella/${i+1}.jpg`);
 
   //create an array of image objects
   const actulimages = Array.from({ length: imageList.length }, (_, i) => ({
@@ -27,7 +27,7 @@ const closeModal = () => {
 
   return (
     <section>
-      <p>Chelliah Palkudam with many members...</p>
+      <p style={{fontSize:'1rem' }}>Chelliah Palkudam with many members...</p>
 
       <div>
            

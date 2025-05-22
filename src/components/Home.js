@@ -8,7 +8,7 @@ import './Home.css';
 function Home() {
 
 //Array of images
-const images = Array.from({ length: 36 }, (_, i) => `${process.env.PUBLIC_URL}/images/all/${i+1}.jpg`);
+const images = Array.from({ length: 35 }, (_, i) => `${process.env.PUBLIC_URL}/images/all/${i+1}.jpg`);
 
 //Print the images in console
 console.log(images);
@@ -31,14 +31,14 @@ useEffect(() => {
 
   return (
     <section>
-      <h2>Chellaiah Mudaliar</h2>
-      <p>Welcome to our Family photo Tour. Explore.Remember</p>
+      <h2 style={{fontSize:'1.25rem' }}>Chellaiah Mudaliar</h2>
+      <p style={{fontSize:'1rem' }}>Welcome to our Family photo Tour. Explore.Remember</p>
 
       <div style={{ textAlign: 'center' }}>
       <img
         src={images[currentIndex]}
         alt={`Slideshow ${currentIndex + 1}`}
-        style={{width: '300px', height: '300px',borderRadius : '15px',objectFit : 'cover', animation: 'fade 1s ease-in-out'}}
+        style={{width: '320px', height: '320px',borderRadius : '15px',objectFit : 'cover'}}
       />
     </div>
     

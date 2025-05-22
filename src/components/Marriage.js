@@ -27,7 +27,7 @@ const closeModal = () => {
 
   return (
     <section>
-      <p>Wedding...</p>
+      <p style={{fontSize:'1rem' }}>Wedding...</p>
 
       <div>
            
